@@ -46,9 +46,6 @@ int main(void)
     CyGlobalIntEnable; /* Enable global interrupts. */
     RTOS_Start();
 
-
-    /* Place your initialization/startup code here (e.g. MyInst_Start()) */
-
     for(;;)
     {
     xTaskCreate(LED_Task,"LED Task",configMINIMAL_STACK_SIZE,0,1,0);

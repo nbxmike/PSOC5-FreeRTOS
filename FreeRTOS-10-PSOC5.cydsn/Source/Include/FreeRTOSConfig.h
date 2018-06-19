@@ -2,7 +2,10 @@
 #define FREERTOS_CONFIG_H
 #include <project.h>
     
-/* Tons of FREERtos configs, please annotate if you know what they do. */
+/* Tons of FreeRTOS configs, please annotate if you know what they do.   */
+/*  Assembled from quite a few sample FreeRTOSConfig.h files for         */
+/*  Cypress PSOC and other Cortex M3 processors.  Not 'owned' by anyone  */
+/*  any longer                                                           */
 
 
 #define configUSE_PREEMPTION                    1
